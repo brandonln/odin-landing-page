@@ -9,6 +9,35 @@ body {
     color: #E5E7EB;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bar > ul {
+    display: flex;
+    gap: 1em;
+}
+
+.header-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.header-bar, .header-body, .call-to-action {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .content h2 {
     color: #1F2937;
     font-size: 36px;
@@ -25,4 +54,10 @@ body {
 
 #placeholder {
     width: 500px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
