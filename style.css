@@ -91,6 +91,10 @@ body {
     width: 500px;
 }
 
+.footer > p {
+    margin-left: 2em;
+}
+
 #placeholder {
     width: 500px;
 }
