@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
+.header, .footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
 
+.content h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
 
 #placeholder {
     width: 500px;
