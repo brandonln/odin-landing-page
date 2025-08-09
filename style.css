@@ -37,6 +37,10 @@ body {
     margin-top: 5%;
 }
 
+.header-body p {
+    margin-right: 1em;
+}
+
 .header-bar, .header-body, .image-row, .call-to-action {
     margin-left: 10%;
     margin-right: 10%;
@@ -84,7 +88,10 @@ body {
 }
 
 .call-to-action {
+    display: flex;
+    align-items: center;
     background-color: #3882F6;
+    color: #E5E7EB;
     padding: 2em 8em;
     border-radius: 8px;
     margin: 3em auto;
@@ -97,6 +104,20 @@ body {
 
 #placeholder {
     width: 500px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    background-color: #3882F6;
+    color: #f9faf9;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.call-to-action button {
+    border-style: solid;
+    border-color: #E5E7EB;
 }
 
 ul {
